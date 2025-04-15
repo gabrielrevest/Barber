@@ -1,0 +1,43 @@
+
+/* === Bouton CTA === */
+.btn_c {
+  background-color: #246a76;
+}
+.titre_surl {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  line-height: inherit;
+}
+.leh {
+  width: 95%;
+  margin: auto;
+}
+.mous{
+  max-height: 50px;
+}
+.log{
+  max-height: 150px;
+}
+.titre_surl::after {
+  content: "";
+  width: 45%;
+  height: 2px;
+  position: absolute;
+  bottom: 25%;
+  background-color: #000000;
+
+}
+.card_b {
+background-color: #fff;
+overflow: hidden;
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border: 2px solid #bc9018;
+}
+
+.lah {
+  width: 97%;
+  margin: auto;
+}
